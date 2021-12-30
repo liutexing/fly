@@ -285,7 +285,8 @@ class Fly {
                             onerror(e)
                         }
                     } catch (e) {
-                        onerror(new Err(e.msg, engine.status))
+                        let msg = "Network Error"
+                        onerror(new Err(msg, engine.status))
                     }
                 }
 
