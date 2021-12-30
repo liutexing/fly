@@ -290,7 +290,7 @@ class Fly {
                 }
 
                 engine.onerror = (e) => {
-                    onerror(new Err(e.msg || "Network Error", 0))
+                    onerror(new Err("Network Error", 0))
                 }
 
                 engine.ontimeout = () => {
