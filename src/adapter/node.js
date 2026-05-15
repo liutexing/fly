@@ -1,4 +1,4 @@
-let pkg = require('./../../package.json');
+let pkg = {version: "0.6.14"};
 let req = require("request");
 module.exports = function (request, responseCallBack) {
     //自动管理cookie
